@@ -32,3 +32,95 @@ body {
     font-size: 24px;
     font-weight: 600;
 }
+
+img {
+    width: 400px;
+    height: auto;
+
+}
+
+.first {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.text {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+.heroMain {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    
+}
+
+.heroSecond {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    margin-top: 12px;
+    width: 100px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+    font-weight: bold;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cuadrado {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.cuadros {
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.textosCuadros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.textosCuadros .text {
+    width: 190px;
+}
+
+.contenidoCuadros {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
